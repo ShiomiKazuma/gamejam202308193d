@@ -41,12 +41,12 @@ public class ButtonHover : MonoBehaviour
 
     public void OnHoveredEnter()
     {
-        Debug.Log("Hovered");
+        //Debug.Log("Hovered");
         raw.texture = texture_Hovered;
     }
     public void OnHoveredExit()
     {
-        Debug.Log("UnHovered");
+       // Debug.Log("UnHovered");
         raw.texture = texture_UnHovered;
     }
 

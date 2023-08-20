@@ -158,7 +158,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Texture: {fileID: 0}
+  m_Texture: {fileID: 2800000, guid: fdcbd20c65990cb4db2517d5b0e49a27, type: 3}
   m_UVRect:
     serializedVersion: 2
     x: 0
@@ -328,7 +328,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u304D\u307F\u305F\u3061\u306F\u3069\u3053\u307E\u3067\u98DB\u3079\u308B\u304B"
+  m_Text: how live
 --- !u!222 &1006219382
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -450,6 +450,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1043839567}
     m_Modifications:
+    - target: {fileID: -6631093844060342134, guid: 2f614e7b9dae6aa4aafe6f2b93c5de19, type: 3}
+      propertyPath: m_Texture
+      value: 
+      objectReference: {fileID: 2800000, guid: 0d0a28c4a528de04c9b3ccc37176ee5f, type: 3}
+    - target: {fileID: -2223506620242848463, guid: 2f614e7b9dae6aa4aafe6f2b93c5de19, type: 3}
+      propertyPath: texture_Hovered
+      value: 
+      objectReference: {fileID: 2800000, guid: 643a90d2a0b654142909032f0901955b, type: 3}
+    - target: {fileID: -2223506620242848463, guid: 2f614e7b9dae6aa4aafe6f2b93c5de19, type: 3}
+      propertyPath: texture_UnHovered
+      value: 
+      objectReference: {fileID: 2800000, guid: 0d0a28c4a528de04c9b3ccc37176ee5f, type: 3}
     - target: {fileID: 1009198758394492856, guid: 2f614e7b9dae6aa4aafe6f2b93c5de19, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -480,11 +492,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1009198758394492856, guid: 2f614e7b9dae6aa4aafe6f2b93c5de19, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 300
+      value: 600
       objectReference: {fileID: 0}
     - target: {fileID: 1009198758394492856, guid: 2f614e7b9dae6aa4aafe6f2b93c5de19, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 100
+      value: 400
       objectReference: {fileID: 0}
     - target: {fileID: 1009198758394492856, guid: 2f614e7b9dae6aa4aafe6f2b93c5de19, type: 3}
       propertyPath: m_LocalPosition.x
@@ -544,7 +556,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9024355350297277583, guid: 2f614e7b9dae6aa4aafe6f2b93c5de19, type: 3}
       propertyPath: m_Text
-      value: Credits
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 9024355350297277583, guid: 2f614e7b9dae6aa4aafe6f2b93c5de19, type: 3}
       propertyPath: m_FontData.m_MaxSize
@@ -635,6 +647,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1043839567}
     m_Modifications:
+    - target: {fileID: -2223506620242848463, guid: 2f614e7b9dae6aa4aafe6f2b93c5de19, type: 3}
+      propertyPath: texture_Hovered
+      value: 
+      objectReference: {fileID: 2800000, guid: a1e4ff582c37ac04db70975a112bdcb0, type: 3}
+    - target: {fileID: -2223506620242848463, guid: 2f614e7b9dae6aa4aafe6f2b93c5de19, type: 3}
+      propertyPath: texture_UnHovered
+      value: 
+      objectReference: {fileID: 2800000, guid: fdcbd20c65990cb4db2517d5b0e49a27, type: 3}
     - target: {fileID: 1009198758394492856, guid: 2f614e7b9dae6aa4aafe6f2b93c5de19, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -665,11 +685,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1009198758394492856, guid: 2f614e7b9dae6aa4aafe6f2b93c5de19, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 300
+      value: 600
       objectReference: {fileID: 0}
     - target: {fileID: 1009198758394492856, guid: 2f614e7b9dae6aa4aafe6f2b93c5de19, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 100
+      value: 400
       objectReference: {fileID: 0}
     - target: {fileID: 1009198758394492856, guid: 2f614e7b9dae6aa4aafe6f2b93c5de19, type: 3}
       propertyPath: m_LocalPosition.x
@@ -737,7 +757,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9024355350297277583, guid: 2f614e7b9dae6aa4aafe6f2b93c5de19, type: 3}
       propertyPath: m_Text
-      value: Game Start
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 9024355350297277583, guid: 2f614e7b9dae6aa4aafe6f2b93c5de19, type: 3}
       propertyPath: m_FontData.m_MaxSize
