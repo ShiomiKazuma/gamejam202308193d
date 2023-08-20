@@ -34,7 +34,7 @@ public class plane : MonoBehaviour
 
         if (transform.position.x < endpotision.position.x)
         {
-            transform.position = startpotision.position;
+            transform.position -= startpotision.position;
         }
        
 

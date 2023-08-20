@@ -13,7 +13,7 @@ public class BrackPlane : MonoBehaviour
     private Transform startpotision;
     [SerializeField]
     private Transform endpotision;
-
+   
 
 
     // Start is called before the first frame update
@@ -27,7 +27,7 @@ public class BrackPlane : MonoBehaviour
     {
         Vector3 currentPosition = transform.position;
         currentPosition.x = 30f;
-        transform.position = currentPosition;
+        transform.position -= currentPosition;
 
         if (transform.position.x < endpotision.position.x)
         {
