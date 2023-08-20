@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class ScoreManager : MonoBehaviour
 {
-    float _bestScore;
+    public float _bestScore;
     [SerializeField] TimeManager _timeManager;
     // Start is called before the first frame update
     void Start()
