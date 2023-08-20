@@ -30,11 +30,11 @@ public class plane : MonoBehaviour
     {
         Vector3 currentPosition = transform.position;
         currentPosition.x = 10f;
-        transform.position = currentPosition;
+        transform.position -= currentPosition;
 
         if (transform.position.x < endpotision.position.x)
         {
-            transform.position -= startpotision.position;
+            transform.position = startpotision.position;
         }
        
 
