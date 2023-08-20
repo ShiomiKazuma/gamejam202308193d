@@ -5,6 +5,10 @@ using UnityEngine;
 public class BrackPlane : MonoBehaviour
 {
     // Start is called before the first frame update
+
+    // ‚Ô‚Â‚©‚Á‚½Žž‚Ì‰¹
+    public AudioClip se;
+
     [SerializeField]
     private Transform startpotision;
     [SerializeField]
@@ -31,5 +35,9 @@ public class BrackPlane : MonoBehaviour
         }
 
 
+    }
+    void OnCollisionEnter(Collision col)
+    {
+        AudioSource.PlayClipAtPoint(se, transform.position);
     }
 }
