@@ -6,7 +6,7 @@ using UnityEngine.UI;
 
 public class TimeManager : MonoBehaviour
 {
-    float _timer;
+    public float _timer;
     [SerializeField] float _firstTimer;
     [SerializeField] Text _text;
     [SerializeField] string _gameOverSceneName;
