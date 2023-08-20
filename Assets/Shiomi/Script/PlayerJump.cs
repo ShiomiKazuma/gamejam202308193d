@@ -1,6 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
-using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -26,7 +23,7 @@ public class PlayerJump : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(_rb.velocity.y <= 0)
+        if (_rb.velocity.y <= 0)
         {
             if (Input.GetButtonDown("Jump"))
             {
@@ -34,7 +31,7 @@ public class PlayerJump : MonoBehaviour
                 _rb.AddForce(transform.up * _jumpPower, ForceMode.Impulse);
                 _audioSource.PlayOneShot(_sound1);
             }
-            else if(Input.GetKeyDown(KeyCode.F) && _slider.value <= _sliderPower)
+            else if (Input.GetKeyDown(KeyCode.F) && _slider.value <= _sliderPower)
             {
                 //ƒQ[ƒW‚ðŒ¸‚ç‚·ˆ—‚ð“ü‚ê‚é
                 _slider.value -= 10;
@@ -43,6 +40,6 @@ public class PlayerJump : MonoBehaviour
                 _audioSource.PlayOneShot(_sound1);
             }
         }
-        
+
     }
 }
